@@ -1,5 +1,6 @@
 "use client"
 
+//@ts-ignore
 import { Songs } from "@/types";
 import LikeButton from "./LikeButton";
 import MediaItem from "./MediaItem";
