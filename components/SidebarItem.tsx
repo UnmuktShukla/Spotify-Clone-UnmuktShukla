@@ -1,4 +1,4 @@
-import {iconType} from "react-icons";
+import {IconType} from "react-icons";
 import Link from "next/link";
 import {twMerge} from "tailwind-merge";
 interface SidebarItemProps {
