@@ -2,7 +2,7 @@ import {IconType} from "react-icons";
 import Link from "next/link";
 import {twMerge} from "tailwind-merge";
 interface SidebarItemProps {
-    icon: iconType;
+    icon: IconType;
     label: string;
     active?: boolean;
     href: string;
