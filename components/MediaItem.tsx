@@ -4,7 +4,7 @@ import useLoadImage from "@/hooks/useLoadImage";
 import usePLayer from "@/hooks/usePlayer";
 import { Songs } from "@/types";
 import Image from "next/image";
-import { title } from "process";
+
 
 interface MediaItemProps {
     data: Songs,
@@ -50,7 +50,7 @@ const MediaItem : React.FC<MediaItemProps> = ({
             >
                 <Image 
                     fill
-                    src={imageUrl || undefined }
+                    src={imageUrl || "/images/music-placeholder.png" }
                     alt= "Media Item"
                     className="object-cover"
                 />
