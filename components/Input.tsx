@@ -1,5 +1,3 @@
-"use client";
-
 import { forwardRef } from "react";
 import { twMerge } from "tailwind-merge";
 
@@ -33,7 +31,9 @@ const Input = forwardRef<HTMLInputElement , InputProps>(({
                 disabled:cursor-not-allowed
                 disabled:opacity-50
                 focus:outline-none
-            `,className)}
+            `,disabled && 'opacity-75',
+              className
+            )}
             disabled={disabled}
             ref={ref}
             {...props}
