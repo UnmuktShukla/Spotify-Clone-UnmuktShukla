@@ -50,7 +50,7 @@ const MediaItem : React.FC<MediaItemProps> = ({
             >
                 <Image 
                     fill
-                    src={imageUrl}
+                    src={imageUrl || undefined }
                     alt= "Media Item"
                     className="object-cover"
                 />
