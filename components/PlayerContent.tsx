@@ -9,7 +9,7 @@ import { HiSpeakerXMark, HiSpeakerWave } from "react-icons/hi2"
 import Slider from "./Slider";
 import usePLayer from "@/hooks/usePlayer";
 import { useEffect, useState } from "react";
-import useSound from 'use-sound';
+import useSound from 'node_modules/use-sound';
 
 interface PlayerContentProps {
     song: Songs
